@@ -1,2 +1,2 @@
 # TwitChess
-Let twitch play against people online
+Let Twitch play against people online

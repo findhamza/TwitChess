@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <!-- Testing arena for /js/board.js -->
+    <head>
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="square" onclick="toggleColor()">
+            <p class="align-v-center align-h-center">
+                Click Me.
+            </p>
+        </div>
+
+
+        <script language="javascript">
+            function toggleColor () {
+                var square = document.getElementsByClassName('square')[0];
+
+                if(square.style.backgroundColor == "red" || square.style.backgroundColor == "") {
+                    square.style.backgroundColor = "yellow";
+                }
+                else {
+                    square.style.backgroundColor = "red";
+                }
+            }
+
+            function squareMouseDown () {
+                var square = document.getElementsByClassName('square')[0];
+                square.style.backgroundColor = "green";
+            }
+
+            function squareMouseUp () {
+                var square = document.getElementsByClassName('square')[0];
+                square.style.backgroundColor = "blue";
+            }
+
+        </script>
+    </body>
+</html>

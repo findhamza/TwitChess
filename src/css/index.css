@@ -1,0 +1,26 @@
+
+p {
+    margin: 0;
+}
+
+.margin-lg {
+    margin: 16px;
+}
+
+.align-v-center {
+    position: absolute;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.align-h-center {
+    position: absolute;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.square {
+    height: 85px;
+    width: 85px;
+    background-color: red;
+}
